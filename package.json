@@ -10,7 +10,12 @@
     "install-all": "npm install && cd client && npm install",
     "build": "cd client && npm run build"
   },
-  "keywords": ["fir", "blockchain", "police", "complaint"],
+  "keywords": [
+    "fir",
+    "blockchain",
+    "police",
+    "complaint"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -20,7 +25,6 @@
     "jsonwebtoken": "^9.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "crypto": "^1.0.1",
     "express-validator": "^7.0.1"
   },
   "devDependencies": {
@@ -28,4 +32,3 @@
     "concurrently": "^8.2.2"
   }
 }
-
