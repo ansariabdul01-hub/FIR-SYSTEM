@@ -19,6 +19,7 @@ app.use("/api/user", require("./routes/user"));
 app.use("/api/admin", require("./routes/admin"));
 app.use("/api/blockchain", require("./routes/blockchain"));
 
+console.log("MONGODB_URI exists:", !!process.env.MONGODB_URI);
 // MongoDB Connection
 mongoose
   .connect(process.env.MONGODB_URI)
